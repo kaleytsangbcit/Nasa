@@ -69,7 +69,10 @@ export default function Polychromatic() {
 
             <div className={styles.polymain}>
                 <div className={styles.headcon}>
-                    <p>Daily imagery collected by DSCOVR's Earth Polychromatic by NASA </p>
+                    <p>
+                        Daily Imagery Collected by DSCOVR's Earth Polychromatic
+                        by NASA{" "}
+                    </p>
 
                     <Image src={image} alt={image} width={400} height={400} />
 
@@ -128,7 +131,7 @@ export default function Polychromatic() {
                         })}
                     </tbody>
                 </table>
-            
+
                 <div className={styles.image}>
                     <img src="/man.png" />
                 </div>
