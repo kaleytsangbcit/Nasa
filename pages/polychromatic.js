@@ -45,7 +45,7 @@ export default function Polychromatic() {
         setDate(date);
         setImages(images);
         setImage(images[0].image);
-        setTime(time[0]);
+        setTime(times[0]);
         setCoords([images[0].coords.lat, images[0].coords.lon]);
 
         console.log(image);
